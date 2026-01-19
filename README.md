@@ -64,8 +64,6 @@ Predicted Top 10 finish (Yes/No)
 Overall accuracy
 
 Example Output
-yaml
-Copy code
 Driver predictions (simplified view):
 Abbreviation GridPosition Top10 PredictedTop10
          HAM            1   Yes            Yes
