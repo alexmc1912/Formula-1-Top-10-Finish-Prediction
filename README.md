@@ -11,17 +11,17 @@ The goal is to classify whether a driver will finish in the Top 10 of a race bas
 ## Project Structure
 
 Formula-1-Top-10-Finish-Prediction/
-├── cache/ # FastF1 cache directory
-├── models/ # Saved trained models
-├── race_data.csv # Raw race data
-├── final_data.csv # Processed dataset for ML
-├── src/
-│ ├── load_data.py # Fetches data from FastF1
-│ ├── prepare_data.py # Cleans & labels data
-│ ├── train_model.py # Trains the ML model
-│ └── evaluate_model.py # Evaluates model & prints results
-├── README.md # Project documentation (this file)
-├── requirements.txt # Python dependencies
+cache/ # FastF1 cache directory
+models/ # Saved trained models
+race_data.csv # Raw race data
+final_data.csv # Processed dataset for ML
+src/
+load_data.py # Fetches data from FastF1
+prepare_data.py # Cleans & labels data
+train_model.py # Trains the ML model
+evaluate_model.py # Evaluates model & prints results
+README.md # Project documentation (this file)
+requirements.txt # Python dependencies
 
 bash
 Copy code
